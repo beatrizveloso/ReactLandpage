@@ -10,7 +10,10 @@ export default function Header() {
                 <a href="">Link One</a>
                 <a href="">Link Two</a>
                 <a href="">Link Three</a>
-                <a href="">Link Four </a>
+                <a href=""> 
+                    <p>Link Four</p>
+                    <img src={Seta} alt="Seta para baixo" />
+                </a>
             </nav>
             <button>Try it for free</button>
         </header>
