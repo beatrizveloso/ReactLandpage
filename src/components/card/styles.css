@@ -1,0 +1,33 @@
+main {
+    height: 600px;
+    background-color: rgb(242, 153, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    width: 360px;
+    height: 480px;
+    background-color: rgb(251, 248, 202);
+    border-radius: 30px;
+    border: 5px solid rgb(218, 5, 151);
+}
+
+.card p {
+    width: 300px;
+    color: rgb(185, 25, 118);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card img {
+    width: 200px;
+    border-radius: 160px;
+}
