@@ -1,16 +1,57 @@
 main {
-    width: 100%;
-    height: 600px;
-    background-color: crimson;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-button{
-    width: 132px;
-    height: 40px;
-    background-color: black;
-    color: white;
+main img {
+    width: 516px;
+    height: 540px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 112px;
+    gap: 80px;
+}
+
+h1 {
+    font-size: 56px;
+    width: 616px;
+}
+
+p {
+    font-size: 18px;
+    width: 616px;
+}
+
+.align {
+    display: flex;
+    gap: 16px;
+}
+
+input {
+    width: 357px;
+    height: 48px;
     font-size: 16px;
+    color: #666666;
+}
+
+button {
+    color: white;
+    background-color: black;
+    width: 140px;
+    height: 52px;
+}
+
+.align-p p {
+    width: 513px;
+    height: 18px;
+    font-size: 12px;
+}
+
+.img {
+    display: flex;
 }
