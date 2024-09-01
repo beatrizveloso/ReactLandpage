@@ -1,21 +1,20 @@
 import './styles.css'
-import Logo from "../../img/logo.svg";
-import Seta from "../../img/seta.svg";
+import Logo from '../../../src/img/logo.svg'
+import Arrow from '../../../src/img/seta.svg'
 
 export default function Header() {
     return (
         <header>
-            <img src={Logo} alt="Logo da compainha" />
-            <nav>
-                <a href="">Link One</a>
-                <a href="">Link Two</a>
-                <a href="">Link Three</a>
-                <a href=""> 
-                    <p>Link Four</p>
-                    <img src={Seta} alt="Seta para baixo" />
-                </a>
-            </nav>
-            <button>Try it for free</button>
+            <img src={Logo} alt="" />
+                <nav>
+                    <a href="">Link One</a>
+                    <a href="">Link Two</a>
+                    <a href="">Link Three</a>
+                    <a href="">Link Four <button><img src={Arrow} alt="" /></button></a>
+                </nav>
+                <div className='button-get'>
+                    <button>Try it for free</button>
+                </div>
         </header>
     )
 }
