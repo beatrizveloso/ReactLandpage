@@ -1,7 +1,7 @@
-import Home from './pages/home/index'
+import Count from './class/hooks/useState/count'
 
 export default function App() {
     return (
-        <Home />
+        <Count />
     )
 }
