@@ -13,7 +13,7 @@ export default function Accordion() {
                 {/* // Se estiver aberto é um ícone, caso fechado outro */}
                 <button
                     onClick={ () => setIsOpen(!isOpen)}
-                > {isOpen ? <ArrowUp /> : <ArrowDown/>}</button>
+                > {isOpen ? <ArrowUp color="#b380cc" size={26}/> : <ArrowDown color= "#20C7C7" size={26}/>}</button>
             </div>
             {/* // e-commercial pq eu n mostro nada caso estiver falso */}
             {isOpen && (
